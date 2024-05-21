@@ -1,5 +1,3 @@
-
-
 const nationalParksArray = [
     {
     LocationID: "ABLI",
