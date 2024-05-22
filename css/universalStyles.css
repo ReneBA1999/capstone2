@@ -1,24 +1,36 @@
-* {
+
+
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    /*desert chadow rgb(104, 85, 83)
+    sesert green rgb(186, 201, 180)
+    desert shadow rgb(104, 85, 83)
+    navy blue rgb(49,74, 78)*/
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     line-height: 1.6;
+    background-color: rgb(238, 197,169);
+}
+main{
+    background-color: rgb(238, 197,169);
 }
 
 /* Navbar styles */
 .navbar {
-    background: #333;
-    color: #fff;
+    background:  rgb(49,74, 78);
+    color: rgb(186, 201, 180);
     padding: 1em 0;
     text-align: center;
 }
 
 .navbar h1 {
     margin-bottom: 0.5em;
+    padding-left: 30px;
 }
 
 .navbar ul {
@@ -32,13 +44,16 @@ body {
 }
 
 .navbar ul li a {
-    color: #fff;
+    color: rgb(186, 201, 180);
     text-decoration: none;
     font-weight: bold;
 }
 
 .navbar ul li a:hover {
+    color: rgb(238, 197,169);
     text-decoration: underline;
+    font-size: large;
+    font-weight: 800;
 }
 
 /* Main content styles */

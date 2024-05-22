@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
             table.setAttribute('border', '1');
             
             const thead = document.createElement('thead');
-            const headers = ['LocationID', 'LocationName', 'Address', 'City', 'State', 'ZipCode', 'Phone', 'Fax', 'Latitude', 'Longitude'];
+            const headers = ['LocationID', 'LocationName', 'Address', 'City', 'State', 'ZipCode', 'Phone', 'Fax', 'Latitude', 'Longitude', 'Location', 'type'];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -163,6 +163,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <td>${park.Fax}</td>
                     <td>${park.Latitude}</td>
                     <td>${park.Longitude}</td>
+                    
+                    
                 `;
                 tbody.appendChild(row);
             });

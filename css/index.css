@@ -1,0 +1,16 @@
+
+.carousel-inner img {
+    height: 300px; /* Adjust height as needed */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-custom {
+    margin-top: 20px;
+}
+
+.card-custom .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
