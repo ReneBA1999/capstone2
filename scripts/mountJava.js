@@ -1,4 +1,4 @@
-//Mounatin inforamtion page
+//MOUNTAIN INFORAMTION JAVASCRIPT
 "use strcit"
 
 document.addEventListener("DOMContentLoaded", () => {
