@@ -35,6 +35,83 @@ button:hover {
     border: 3px solid red;
 }
 
+/*General Page styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bungee", sans-serif;
+    /*desert chadow rgb(104, 85, 83)
+    sesert green rgb(186, 201, 180)
+    desert shadow rgb(104, 85, 83)
+    navy blue rgb(49,74, 78)*/
+}
+
+body {
+    line-height: 1.6;
+    background-color: rgb(186, 201, 180);
+        background-image: url("/images/logo-8768915.jpg");  
+        background-size:cover;
+        background-repeat: no-repeat;   
+}
+main{
+    background-color: rgb(238, 197,169);
+}
+
+/* Navbar styles */
+.navbar {
+    background:  rgb(49,74, 78);
+    color: rgb(186, 201, 180);
+    padding: 1em 0;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin-bottom: 0.5em;
+    padding-left: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.navbar ul li a {
+    color: rgb(186, 201, 180);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: rgb(238, 197,169);
+    text-decoration: underline;
+    font-size: large;
+    font-weight: 800;
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 1em;
+}
+footer {
+    
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(186, 201, 180);
+    text-align: center;
+    padding: 10px;
+}
 
 
 
