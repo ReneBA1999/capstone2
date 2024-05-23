@@ -1,4 +1,6 @@
+/*General Page styles*/
 
+/*Button Styles*/
 .search-options {
     margin-bottom: 20px;
 }
@@ -11,7 +13,6 @@ label {
 
 select, button {
     width: 30%;
-
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
@@ -19,7 +20,7 @@ select, button {
 }
 
 button {
-    background-color: rgb(69, 94, 59);
+    background-color: rgb(49,74, 78);
     color: white;
     cursor: pointer;
 }
@@ -32,7 +33,6 @@ button:hover {
     margin-top: 20px;
     border: 3px solid red;
 }
-
 
 
 

@@ -1,5 +1,5 @@
 
-
+/*General Page styles*/
  *{
     margin: 0;
     padding: 0;
@@ -14,7 +14,11 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.6;
-    background-color: rgb(238, 197,169);
+    background-color: rgb(186, 201, 180);
+        background-image: url("/images/logo-8768915.jpg");  
+        background-size:cover;
+        background-repeat: no-repeat;
+     
 }
 main{
     background-color: rgb(238, 197,169);
@@ -64,4 +68,12 @@ main {
 
 main h2 {
     margin-bottom: 1em;
+}
+footer {
+    
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(186, 201, 180);
+    text-align: center;
+    padding: 10px;
 }

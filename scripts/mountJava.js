@@ -1,3 +1,4 @@
+//Mounatin inforamtion page
 "use strcit"
 
 document.addEventListener("DOMContentLoaded", () => {
