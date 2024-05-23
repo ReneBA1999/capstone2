@@ -7,8 +7,8 @@ and a search national parks page.
 # Home page
 <p>
     <img src="/images/nationalParksHomeFullscreen.png" alt="top Home Page" width="700">
-    <img src="images/nationalParksHomeFullscreenBottom.png" alt="bottom Home Page" width="700">
-    <img src="images/nationalParksHomeMinimizedScreen.png" alt="homepage minimized" width="700">
+    <img src="/images/nationalParksHomeFullscreenBottom.png" alt="bottom Home Page" width="700">
+    <img src="/images/nationalParksHomeMinimizedScreen.png" alt="homepage minimized" width="700">
  <p>
 
 
