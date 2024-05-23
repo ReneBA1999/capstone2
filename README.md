@@ -39,5 +39,5 @@ One interesting piece of code within this project. I'd say is getting the table 
 , ive also read its best practice to style these components using css.
 
  <p>
-    <img src="/interestPieceOfCodee.png" alt="interesting code" width="700">
+    <img src="images/interestPieceOfCodee.png" alt="interesting code" width="700">
  <p>
