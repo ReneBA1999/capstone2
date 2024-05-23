@@ -96,7 +96,6 @@
 //     });
 // });
 /////////////////////////////////
-
 document.addEventListener('DOMContentLoaded', function() {
     // Populate the dropdowns
     const stateSelect = document.getElementById('state-select');
@@ -136,10 +135,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const createTable = (parks) => {
             const table = document.createElement('table');
-            table.setAttribute('border', '1');
             
             const thead = document.createElement('thead');
-            const headers = ['LocationID', 'LocationName', 'Address', 'City', 'State', 'ZipCode', 'Phone', 'Fax', 'Latitude', 'Longitude', 'Location', 'type'];
+            const headers = ['LocationID', 'LocationName', 'Address', 'City', 'State', 'ZipCode', 'Phone', 'Fax', 'Latitude', 'Longitude', 'Coordinates', 'Type'];
             const headerRow = document.createElement('tr');
             headers.forEach(header => {
                 const th = document.createElement('th');
@@ -153,18 +151,18 @@ document.addEventListener('DOMContentLoaded', function() {
             parks.forEach(park => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
-                    <td>${park.LocationID}</td>
-                    <td>${park.LocationName}</td>
-                    <td>${park.Address}</td>
-                    <td>${park.City}</td>
-                    <td>${park.State}</td>
-                    <td>${park.ZipCode}</td>
-                    <td>${park.Phone}</td>
-                    <td>${park.Fax}</td>
-                    <td>${park.Latitude}</td>
-                    <td>${park.Longitude}</td>
-                    
-                    
+                    <td data-label="LocationID">${park.LocationID}</td>
+                    <td data-label="LocationName">${park.LocationName}</td>
+                    <td data-label="Address">${park.Address}</td>
+                    <td data-label="City">${park.City}</td>
+                    <td data-label="State">${park.State}</td>
+                    <td data-label="ZipCode">${park.ZipCode}</td>
+                    <td data-label="Phone">${park.Phone}</td>
+                    <td data-label="Fax">${park.Fax}</td>
+                    <td data-label="Latitude">${park.Latitude}</td>
+                    <td data-label="Longitude">${park.Longitude}</td>
+                    <td data-label="Coordinates">${park.Location.coordinates.join(', ')}</td>
+                    <td data-label="Type">${park.Location.type}</td>
                 `;
                 tbody.appendChild(row);
             });
