@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Bungee", sans-serif;
     /*desert chadow rgb(104, 85, 83)
-    sesert green rgb(186, 201, 180)
+    desert green rgb(186, 201, 180)
     desert shadow rgb(104, 85, 83)
     navy blue rgb(49,74, 78)*/
 }
@@ -14,9 +14,9 @@
 body {
     line-height: 1.6;
     background-color: rgb(186, 201, 180);
-        background-image: url("/images/logo-8768915.jpg");  
-        background-size:cover;
-        background-repeat: no-repeat;   
+    background-image: url("/images/logo-8768915.jpg");  
+    background-size:cover;
+    background-repeat: no-repeat;   
 }
 main{
     background-color: rgb(238, 197,169);

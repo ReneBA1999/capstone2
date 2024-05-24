@@ -6,11 +6,11 @@ and a search national parks page.
 
 # Home page
 <p>
-    <img src="images/nationalParksHomeFullscreen.png" alt="top Home Page" width="700">
-    <img src="images/nationalParksHomeFullscreenBottom.png" alt="bottom Home Page" width="700">
+    <img src="images/nationalParksusaTopPage.png" alt="top Home Page" width="700">
+    <img src="images/nationalParksusabottomPage.png" alt="bottom Home Page" width="700">
     <br>
     <h5>Minimized screen<h5>
-    <img src="images/nationalParksHomeMinimizedScreen.png" alt="homepage minimized" width="700">
+    <img src="images/nationalParksusaMinimizedPage.png" alt="homepage minimized" width="700">
  <p>
 
 
