@@ -35,8 +35,7 @@ and a search national parks page.
 
 #
 
-One interesting piece of code within this project. I'd say is getting the table within the javascript and making it responsive with smaller devices
-, ive also read its best practice to style these components using css.
+One interesting piece of code within this project. Id say is the table styles from my javascript, I was going to try to implement styles via javascript, but ive read its better practice to style these components using css.
 
  <p>
     <img src="images/interestPieceOfCodee.png" alt="interesting code" width="700">
