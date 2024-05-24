@@ -14,7 +14,7 @@
 body {
     line-height: 1.6;
     background-color: rgb(186, 201, 180);
-    background-image: url("/images/logo8768915.jpg");  
+    background-image: url("../images/logo8768915.jpg");  
     background-size:cover;
     background-repeat: no-repeat;   
 }
